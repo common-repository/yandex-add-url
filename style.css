@@ -1,0 +1,29 @@
+/*
+* Yandex Add Url
+*/
+#ya-iframe{
+	overflow: hidden;
+	border: 1px solid #ccc;
+	padding: 5px
+}
+#ya-hide{
+	float: right;
+	color: #21759b;
+	cursor: pointer;
+}
+.hide{
+	height: 20px;
+}
+.hide iframe{
+	display: none;
+}
+.open .ya-click-to-open{
+	display: none;
+}
+.open.hide .ya-click-to-open{
+	display: block;
+	color: #21759b;
+	cursor: pointer;
+	text-decoration: underline;
+	font-weight: bold;
+}
